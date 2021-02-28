@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# UI-code-challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi!
 
-## Available Scripts
+We would like you to complete a brief code challenge in order for us to get an understanding of your approach to UI development.
 
-In the project directory, you can run:
+Your task will be to build the page layout shown in the design PDF's provided.
 
-### `yarn start`
+## Instructions:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Fork this repo (this contains all assets required, as well as a data.json file to serve as a mock API)
+- Generate a new React application (Create React App is fine for time restraints)
+- Using Storybook (or similar), build and style the card component to replicate the design as accurately as possible
+- The card must be able to accept any one of the card data objects provided in data.json
+- Include functionality for a user to provide a rating using the stars (Follow Task 1 provided below)
+- Once complete, upload your project to your Github/Bitbucket account and provide us with a link to review. Please include in your README.md any necessary instructions to run your project locally
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The most important aspects that we will be reviewing are your attention to detail and how you manage data. This will include your ability to replicate the design.
 
-### `yarn test`
+Please refrain from using any third-party CSS libraries such as Boostrap or Material Design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you have any questions, please feel free to contact us!
 
-### `yarn build`
+### Extra credit
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We understand time restraints - so the following are completely optional
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Unit tests
+- Use of TypeScript
+- Accessibility checks (and variation on design to meet standards)
+- Display all the card data at once, horizontally, wrapping the row as needed
+- Update the average rating when the user provides a rating (Follow Task 2 provided below)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### User stories
 
-### `yarn eject`
+Task 1
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+As a: End user
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I want to: Be able to provide a rating of the item by interacting with the stars
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+So I: Can show other users how much I liked the item
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Task 2
 
-## Learn More
+As a: End user
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I want to: Be able to see the the average rating accurately update when I provide my rating (The rating must display to 1 decimal place (4.2))
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+So I: Can see the most up to date rating
