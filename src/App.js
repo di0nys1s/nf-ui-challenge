@@ -4,7 +4,6 @@ import toTop from "./assets/images/to-top.svg";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BC from "./components/BC";
-// import db from "./data/data.json";
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -12,7 +11,7 @@ function App() {
   // Run 'npm run server' to run the json-server in another terminal
   useEffect(() => {
     const fetchCards = async () => {
-      const response = await fetch("http://localhost:5000/cards");
+      const response = await fetch(`${process.env.REACT_APP_DATA_API}/cards`);
       const data = await response.json();
 
       setCards(data);
@@ -20,19 +19,13 @@ function App() {
     fetchCards();
   }, []);
 
-  // const cardsData = db[0].data.cards;
-
   return (
     <div id="app">
       <Header />
       <main>
         <BC cards={cards} />
         <a href="#">
-          <img
-            className="to-top"
-            src={toTop}
-            alt="toTop"
-          />
+          <img className="to-top" src={toTop} alt="toTop" />
         </a>
       </main>
       <Footer />
