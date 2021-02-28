@@ -6,13 +6,13 @@ function Footer() {
     <footer>
       <p>{currentYear} &copy; NETFRONT</p>
 
-      <ul>
+      <p>
         <span>Privacy</span>
         <span>|</span>
         <span>Terms & Conditions</span>
         <span>|</span>
         <span>Contact</span>
-      </ul>
+      </p>
     </footer>
   );
 }
