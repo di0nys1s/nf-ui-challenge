@@ -5,40 +5,40 @@
       "title": "App title 1",
       "published": false,
       "user": "Netfront",
-      "rating": 4.7,
-      "rateCount": 2
+      "rating": 3.4,
+      "rateCount": 5
     },
     {
       "id": 2,
       "title": "App title 2",
       "published": true,
       "user": "Netfront",
-      "rating": 3.9,
-      "rateCount": 8
+      "rating": 4.3,
+      "rateCount": 16
     },
     {
       "id": 3,
       "title": "App title 3",
       "published": false,
       "user": "Netfront",
-      "rating": 4.1,
-      "rateCount": 7
+      "rating": 3.9,
+      "rateCount": 13
     },
     {
       "id": 4,
       "title": "App title 4",
       "published": true,
       "user": "Netfront",
-      "rating": 4.4,
-      "rateCount": 1
+      "rating": 3.2,
+      "rateCount": 2
     },
     {
       "id": 5,
       "title": "App title 5",
       "published": true,
       "user": "Netfront",
-      "rating": 2.1,
-      "rateCount": 17
+      "rating": 3.4,
+      "rateCount": 34
     },
     {
       "id": 6,

@@ -1,4 +1,5 @@
 import CardList from "./CardList";
+import toTop from "../assets/images/to-top.svg";
 
 function BC({ cards }) {
   return (
@@ -9,6 +10,9 @@ function BC({ cards }) {
           <p>My apps</p>
         </div>
         <CardList cards={cards} />
+        <a href="#">
+          <img className="to-top" src={toTop} alt="toTop" />
+        </a>
       </div>
     </>
   );

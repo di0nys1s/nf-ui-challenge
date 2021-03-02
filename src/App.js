@@ -1,6 +1,5 @@
 import "./App.scss";
 import { useState, useEffect } from "react";
-import toTop from "./assets/images/to-top.svg";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BC from "./components/BC";
@@ -24,9 +23,6 @@ function App() {
       <Header />
       <main>
         <BC cards={cards} />
-        <a href="#">
-          <img className="to-top" src={toTop} alt="toTop" />
-        </a>
       </main>
       <Footer />
     </div>
